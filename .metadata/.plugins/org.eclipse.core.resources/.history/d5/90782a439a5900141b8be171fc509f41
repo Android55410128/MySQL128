@@ -1,0 +1,25 @@
+package app.lap.client_server_55410128;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.widget.ListView;
+
+
+public class MainActivity extends Activity {
+	private ListView listview1;
+	
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        listview1 = (ListView) findViewById(R.layout.activity_main);
+        
+        
+    }
+
+
+   
+}
